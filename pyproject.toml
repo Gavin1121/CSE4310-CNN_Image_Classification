@@ -13,13 +13,13 @@ url      = "https://download.pytorch.org/whl/cu121"
 priority = "supplemental"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-numpy = "^1.26.4"
-lightning = "^2.2.1"
-ipykernel = "^6.29.4"
-torch = {version = "^2.2.2+cu121", source = "pytorch"}
-torchvision = {version = "^0.17.2+cu121", source = "pytorch"}
-torchaudio = {version = "^2.2.2+cu121", source = "pytorch"}
+python      = "^3.11"
+numpy       = "^1.26.4"
+lightning   = { version = "^2.2.1", extras = ["tensorboardX"] }
+ipykernel   = "^6.29.4"
+torch       = { version = "^2.2.2+cu121", source = "pytorch" }
+torchvision = { version = "^0.17.2+cu121", source = "pytorch" }
+torchaudio  = { version = "^2.2.2+cu121", source = "pytorch" }
 
 [tool.poetry.group.dev.dependencies]
 black            = "^24.3.0"
