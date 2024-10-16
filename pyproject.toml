@@ -15,7 +15,7 @@ priority = "supplemental"
 [tool.poetry.dependencies]
 python      = "^3.11"
 numpy       = "^1.26.4"
-lightning   = { version = "^2.3.2", extras = ["tensorboardX"] }
+lightning   = { version = "^2.3.3", extras = ["tensorboardX"] }
 ipykernel   = "^6.29.4"
 torch       = { version = "^2.2.2+cu121", source = "pytorch" }
 torchvision = { version = "^0.17.2+cu121", source = "pytorch" }
